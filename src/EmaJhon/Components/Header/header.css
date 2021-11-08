@@ -1,0 +1,41 @@
+.header{
+    text-align: center;
+    width : 100% ;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header img{
+    height: 80px ;
+    width : 240px ;
+    margin-top: 20px;
+}
+
+.header nav{
+    text-align: center;
+    display: flex;
+    background-color: black;
+    font-size: 20px ;
+    width : 100% ;
+    justify-content: center;
+    margin-top: 20px ;
+   
+}
+.header nav a{
+    color: #ddd;
+    text-decoration: none;
+    padding : 20px ;
+    cursor: pointer;
+    transition: all 0.3s linear ;
+}
+
+.header nav a:hover{
+    background-color: #ddd;
+    color: #333;
+
+}
+
